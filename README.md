@@ -58,10 +58,10 @@ Adding the **image_bg** class to a section makes it go full width/height.
 ```
 ![full height and width](https://github.com/SheffieldJournalism/Longfrom-template/raw/master/ReadmeFiles/100vh.png)
 
-To specify a background image, an additional class name is required. I want a picture of a dogs. so I'm going to add the class name "dogs":
+To specify a background image, an additional class name is required. I want to use an image of a pier, so I'm going to add the class name "pier":
 
 ```
-<section class="dogs image_bg">
+<section class="pier image_bg">
 
 </section>
 ```
@@ -69,7 +69,7 @@ This means I can add a new style in style.css that points to my image of dogs:
 
 ```
 .dogs {
-  background: url(../img/dog_pic.jpg);
+  background: url(../img/luc-sur-mer-pier.jpg);
   background-size: cover;
   background-attachment: fixed;
 }
@@ -77,7 +77,7 @@ This means I can add a new style in style.css that points to my image of dogs:
 
 You can then put content inside this section, for example a header with headings:
 ```
-<section class="dogs image_bg">
+<section class="pier image_bg">
   <header>
     <h1>Some content</h1>
   </header>
