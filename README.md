@@ -80,10 +80,13 @@ You can then put content inside this section, for example a header with headings
 ```
 <section class="pier image_bg">
   <header>
-    <h1>Some content</h1>
+    <h1>A basic template</h1>
+    <h2>For longform or immersive stories</h2>
+    <span>Story by <a href="http://twitter.com/hadders">Hadrian Cawthorne</a></span>
   </header>
 </section>
 ```
+![headings](https://github.com/SheffieldJournalism/Longfrom-template/raw/master/ReadmeFiles/headings.png)
 
 But it doesn't need to be headings, it could be blockquote, or anything. This may require additional CSS.
 
