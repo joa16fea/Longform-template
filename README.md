@@ -74,6 +74,7 @@ This means I can add a new style **in style.css** that points to my image of the
   background-attachment: fixed;
 }
 ```
+![background image](https://github.com/SheffieldJournalism/Longfrom-template/raw/master/ReadmeFiles/bg-image.png)
 
 You can then put content inside this section, for example a header with headings:
 ```
