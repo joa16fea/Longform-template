@@ -18,7 +18,7 @@ The files you need to edit are:
 - **index.html** this is the web page itself
 - css/**style.css** is where the CSS styles go
 - js/**index.js** is where the bits of JavaScript go
-- **imgages** is the folder where you put your images and other media
+- **images** is the folder where you put your images and other media
 
 
 ## Structure
@@ -69,7 +69,7 @@ This means I can add a new style **in style.css** that points to my image of the
 
 ```
 .pier {
-  background: url(../imgages/luc-sur-mer-pier.jpg);
+  background: url(../images/luc-sur-mer-pier.jpg);
   background-size: cover;
   background-attachment: fixed;
 }
