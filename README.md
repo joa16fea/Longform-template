@@ -18,7 +18,7 @@ The files you need to edit are:
 - **index.html** this is the web page itself
 - css/**style.css** is where the CSS styles go
 - js/**index.js** is where the bits of JavaScript go
-- **img** is the folder where you put your images and other media
+- **imgages** is the folder where you put your images and other media
 
 
 ## Structure
@@ -65,11 +65,11 @@ To specify a background image, an additional class name is required. I want to u
 
 </section>
 ```
-This means I can add a new style in style.css that points to my image of dogs:
+This means I can add a new style **in style.css** that points to my image of the pier:
 
 ```
-.dogs {
-  background: url(../img/luc-sur-mer-pier.jpg);
+.pier {
+  background: url(../imgages/luc-sur-mer-pier.jpg);
   background-size: cover;
   background-attachment: fixed;
 }
@@ -87,8 +87,7 @@ You can then put content inside this section, for example a header with headings
 But it doesn't need to be headings, it could be blockquote, or anything. This may require additional CSS.
 
 
-
-###Big heading sections with full width/height and background colour
+### Big heading sections with full width/height and background colour
 
 As well as headers with background images, you can have just a colour.
 
