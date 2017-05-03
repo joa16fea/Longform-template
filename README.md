@@ -44,6 +44,7 @@ When you want a section that you can just add content to and it will display in 
 ```
 
 This is straight forward - just give a section the class name **content**. anfd you'll get this kind of thing:
+
 ![Screengrab of a content section](https://github.com/SheffieldJournalism/Longfrom-template/raw/master/ReadmeFiles/dot-content.png)
 
 ### Big heading sections with full width/height background images
@@ -55,6 +56,7 @@ Adding the **image_bg** class to a section makes it go full width/height.
 
 </section>
 ```
+![full height and width](https://github.com/SheffieldJournalism/Longfrom-template/raw/master/ReadmeFiles/100vh.png)
 
 To specify a background image, an additional class name is required. I want a picture of a dogs. so I'm going to add the class name "dogs":
 
