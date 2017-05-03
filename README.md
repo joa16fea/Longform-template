@@ -33,7 +33,7 @@ There are three types of ```<section>```. They are visually different from each 
 
 *To apply the background image or colour, you need to add an additional class name where you can specify the image's path or colour code in the CSS (see below).
 
-###Content sections
+### Content sections
 
 When you want a section that you can just add content to and it will display in a column, use:
 
@@ -43,7 +43,8 @@ When you want a section that you can just add content to and it will display in 
 </section>
 ```
 
-This is straight forward - just give a section the class name **content**.
+This is straight forward - just give a section the class name **content**. anfd you'll get this kind of thing:
+![Screengrab of a content section](https://github.com/SheffieldJournalism/Longfrom-template/raw/master/ReadmeFiles/dot-content.png)
 
 ### Big heading sections with full width/height background images
 
