@@ -1,7 +1,7 @@
 
 # A Basic Longform template
 
-[A demo of this framework can be found here.](https://haddersbadders.github.io/basic-longform-template/)
+[A demo of this framework can be found here.](https://sheffieldjournalism.github.io/Longfrom-template/)
 
 This template is in the style of a longform page. The longform style strips out web page furniture such as masthead, navigation, sidebar etc to focus on the content. 
 
@@ -15,24 +15,35 @@ Features of the template include:
 
 The files you need to edit are:
 
-- **index.html** this is ht eweb page itself
-- css/**style.css** which is where the CSS styles go
+- **index.html** this is the web page itself
+- css/**style.css** is where the CSS styles go
 - js/**index.js** is where the bits of JavaScript go
-- **img** is the folder where you put your images
+- **img** is the folder where you put your images and other media
 
 
 ## Structure
 
 The structure of the template is simple. Content is separated into **sections** using the HTML tag ```<section>```.
 
-There are three types of ```<section>```that are visually different. These are differentiated using the class names:
+There are three types of ```<section>```. They are visually different from each other and are differentiated using the class names:
 
-- **content** ```<section class="content">``` gives you a column to add content like paragraphs images etc 
-- **image_bg** ```<section class="image_bg">``` gives a full width/height section with background image* 
-- **color_bg** ```<section class="color_bg">``` gives a full width/height section with a background colour* 
+- **content** ```<section class="content">``` gives you a column you can add content to, like paragraphs, images, embed maps etc 
+- **image_bg** ```<section class="image_bg">``` gives you full width/height section that you can apply background image to* 
+- **color_bg** ```<section class="color_bg">``` gives you a full width/height section that you can apply a background colour to* 
 
-*Use a separate class names to specify image path and colour code.
+*To apply the background image or colour, you need to add an additional class name where you can specify the image's path or colour code in the CSS (see below).
 
+###Content sections
+
+When you want a section that you can just add content to and it will display in a column, use:
+
+```
+<section class="content">
+  //Your content
+</section>
+```
+
+This is straight forward - just give a section the class name **content**.
 
 ### Big heading sections with full width/height background images
 
@@ -72,17 +83,7 @@ You can then put content inside this section, for example a header with headings
 
 But it doesn't need to be headings, it could be blockquote, or anything. This may require additional CSS.
 
-###Content sections
 
-A content section gives you a column for you to put text and any other media in. 
-
-```
-<section class="content">
-  //Your content
-</section>
-```
-
-This is straight forward - just give a section the class name **content**.
 
 ###Big heading sections with full width/height and background colour
 
