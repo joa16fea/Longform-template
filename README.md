@@ -43,7 +43,7 @@ When you want a section that you can just add content to and it will display in 
 </section>
 ```
 
-This is straight forward - just give a section the class name **content**. anfd you'll get this kind of thing:
+This is straight forward - just give a section the class name **content** and you'll get this kind of thing:
 
 ![Screengrab of a content section](https://github.com/SheffieldJournalism/Longfrom-template/raw/master/ReadmeFiles/dot-content.png)
 
