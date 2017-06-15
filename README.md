@@ -1,7 +1,7 @@
 
 # A Basic Longform template
 
-[A demo of this framework can be found here.](https://sheffieldjournalism.github.io/Longfrom-template/)
+[A demo of this framework can be found here.](https://sheffieldjournalism.github.io/Longform-template/)
 
 This template is in the style of a longform page. The longform style strips out web page furniture such as masthead, navigation, sidebar etc to focus on the content. 
 
