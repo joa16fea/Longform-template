@@ -118,7 +118,9 @@ header a {
 
 .content {
     margin: 0 auto;
-    padding: 1em 20%;
+    padding: 1em;
+    width: 60%;
+    box-sizing: border-box;
     /* this in-effect sets the content section's width e.g. 20% = 60% width. */
 }
 
